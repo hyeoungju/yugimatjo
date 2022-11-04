@@ -1,0 +1,4 @@
+@charset "UTF-8";
+ul,li { list-style: none;}
+.card-body {display:flex;text-align: center;height:100%;}
+.sub-name-title,.sub-name-input {line-height: 20px; display: flex; flex-direction: column;}

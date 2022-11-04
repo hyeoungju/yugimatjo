@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{font-family: 'GmarketSansMedium';}
+
+li { list-style : none; }
+
+.row {
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.city {
+  margin-top: 32px;
+}
+
+.col-sm .navbar-brand img {
+  width: 20%;
+  background-size: cover;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+  font-weight: bolder;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #a81c13;
+}
+
+.navbar {
+  margin: 0 auto;
+}
+.container-fluid {
+  padding: 0;
+}
+
+.bg-primary {
+  background: rgb(255,113,31);
+  background: linear-gradient(90deg, rgba(255,113,31,1) 0%, rgba(255,202,155,1) 100%);
+}
+
+.filteringbox {
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 100px;
+  background-color: rgba(255,113,31,.8);
+}
+
+.search_button {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+}
+
+.col-sm-3 {
+  margin-top: 30px;
+}
+
+input {
+  width: 200px;
+  height: 40px;
+  border-width: 1px;
+}
+
+.carousel .slide {
+  height: 20%;
+}
+
+.btn-img {
+  background-image: url("../img/top_sch.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+}
+
+.color-primary {
+  color: #f64646;
+}
+
+.btn-red {
+  background: #f64646;
+}
+
+.carousel {
+  margin-bottom: 50px;
+}
+
+.oimg {
+  background-image: url("../img/section02_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bgo {
+  background: #a81c13;
+}
+
+.cardobg {
+  background: #ffed93;
+}
+
+.form-control {
+  
+}
+
+.form-control::placeholder {
+ 
+}
+
+button {
+  margin: 10px;
+}
+button:last-child {
+  margin-right: 0;
+}
+
+.text-muted {
+  background-color: #ffB562;
+}
+
+
+
+
+
